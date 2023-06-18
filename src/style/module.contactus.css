@@ -1,0 +1,122 @@
+.contactus{
+    color: black;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.contactus .contact_container{
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+}
+
+/* left side */
+.contactus .contact_container .left_side_div_of_contact{
+    width: 50%;
+} 
+.contactus .contact_container .left_side_div_of_contact .contact_buttons_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    margin-top: 20px;
+} 
+
+
+.contactus .contact_container .left_side_div_of_contact div h2{
+    font-size: 24px;
+    text-transform: capitalize;   
+}
+
+.contactus .contact_container .left_side_div_of_contact p{
+    padding: 10px 10px 10px 0px;
+    font-size: 14px;
+}
+
+.contactus .contact_container .left_side_div_of_contact div .btns{
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contactus .contact_container .left_side_div_of_contact div .btns div{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    
+}
+.contactus .contact_container .left_side_div_of_contact div .btns div div{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;   
+}
+
+.contactus .contact_container .left_side_div_of_contact div .btns div div span{
+     font-weight: 600;
+}
+
+.contactus .contact_container .left_side_div_of_contact div .btns div button{
+    width: 100%;
+    background-color: #3a5efe;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus .contact_container .left_side_div_of_contact div .btns div button:hover{
+    scale: 0.95;
+    transition: all 500ms ease-in-out;
+}
+
+
+
+/* right side styles */
+.contactus .contact_container .right_side_div_of_contact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus .contact_container .right_side_div_of_contact div{
+    border: 5px solid #3a5efe;
+    border-radius: 30rem 30rem 0 0;
+    overflow: hidden;
+    height: 30rem;
+    width: 25rem;
+}
+
+.contactus .contact_container .right_side_div_of_contact div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (max-width: 968px){
+    .contactus .contact_container{
+        width: 100%;
+        padding: 0px 50px;
+        flex-direction: column;
+    }
+    .contactus .contact_container .left_side_div_of_contact{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .contactus .contact_container .right_side_div_of_contact{
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px){
+    .contactus .contact_container .left_side_div_of_contact .contact_buttons_container{
+        
+        grid-template-columns: auto;
+    } 
+}

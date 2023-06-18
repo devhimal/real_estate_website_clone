@@ -1,0 +1,18 @@
+.company_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    padding: 50px 20px;
+    overflow: scroll;
+}
+.company_container img{
+    width: 9rem;
+}
+
+@media (max-width: 968px){
+    .company_container{
+        gap: 30px;
+    }
+}

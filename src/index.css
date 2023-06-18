@@ -82,6 +82,13 @@ a {
   font-weight: 600;
 }
 
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

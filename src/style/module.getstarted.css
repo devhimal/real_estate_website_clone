@@ -1,0 +1,41 @@
+.getstarted_container{
+    padding: 50px 0px;
+}
+
+.getstarted_container div{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #3a5efe;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: none;
+    border-radius: 8px;
+}
+
+.getstarted_container div p{
+    padding: 30px;
+}
+
+.getstarted_container button{
+    text-transform: capitalize;
+    padding: 10px 30px;
+}
+.getstarted_container button:hover{
+   scale: 1.05;
+   transition: all 500ms ease-in-out;
+}
+
+@media screen and (max-width: 968px) {
+    
+    .getstarted_container{
+        margin: 0px 50px;
+    }
+
+    .getstarted_container div{
+        width: 100%;
+    }
+}

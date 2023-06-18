@@ -1,0 +1,96 @@
+.value_container .value_container_1{
+    display: flex;
+    padding: 20px 0px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.value_container .value_container_1 .value_section_image_container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value_container .value_container_1 .value_section_image_container div {
+    border: 4px solid #3a5efe;
+    overflow: hidden;
+    height: 33rem;
+    width: 28rem;
+    border-radius: 15rem 15rem 0 0 ;
+}
+
+.value_container .value_container_1 .value_section_image_container div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* right side */
+.value_container .value_container_1 .value_section_desc{
+    width: 50%;
+    color: black;
+    /* background-color: red; */
+}
+
+.value_container .value_container_1 .value_section_desc div h1{
+    font-size: 24px;
+    padding: 10px 0px;
+
+}
+.value_container .value_container_1 .value_section_desc div p{
+    font-size: 14px;
+    padding: 20px 0px;
+
+}
+
+/* accordion button */
+
+.accordionItems{
+    background-color: #1f2937;
+    color: white;
+    /* overflow: hidden; */
+}
+
+#accordionHeading{
+    background-color: white;
+    color: black;
+    margin: 10px 0px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.accordionButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.accordionDetail{
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 968px){
+    .value_container .value_container_1{
+        max-width: 100%;
+        padding: 100px 50px;
+        flex-direction: column;
+    }
+    
+    .value_container .value_container_1 .value_section_image_container{
+        width: 100%;
+    }
+
+    .value_container .value_container_1 .value_section_desc{
+        width: 100%;
+        padding-top: 30px;
+    }
+}
